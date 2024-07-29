@@ -1,4 +1,10 @@
-# TEAM- Vertext3D
+# Vertext3D
+
+<img src="https://github.com/ShahxHussain/Vertext3D/blob/main/Logos/Vertext3D%20Logo.png" alt="FormFit" width="200"/>
+
+### Turn your words into stunning 3D Creations
+
+## TEAM
 
 <table >
     <tbody>
