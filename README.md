@@ -4,17 +4,17 @@
     <tbody>
         <tr>
             <td align="center">
-                <a href="https://github.com/shahxhussain">
-                    <img src="https://avatars.githubusercontent.com/u/129790640?v=4" width="150px; height="150px" alt="Syed Shah Hussain"/>
-                    <br />
-                    <sub><b>Syed Shah Hussain</b></sub>
-                </a> 
-            </td>
-          <td align="center">
                 <a href="https://github.com/m-inaam">
                     <img src="https://avatars.githubusercontent.com/u/94857175?v=4" width="150px; height="150px" alt="Muhammad Inaamullah"/>
                     <br />
                     <sub><b>Muhammad Inaamullah</b></sub>
+                </a> 
+            </td>
+            <td align="center">
+                <a href="https://github.com/shahxhussain">
+                    <img src="https://avatars.githubusercontent.com/u/129790640?v=4" width="150px; height="150px" alt="Syed Shah Hussain"/>
+                    <br />
+                    <sub><b>Syed Shah Hussain</b></sub>
                 </a> 
             </td>
             <td align="center">
