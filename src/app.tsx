@@ -14,7 +14,8 @@ export const App = () => {
   return (
     <div className={styles.scrollContainer}>
       <Rows spacing="3u">
-        <div>
+      <Rows spacing="1u">
+        
           <label style={{fontSize:"14px"}}  htmlFor="object-description">Object Description</label>
 
           <TextInput
@@ -24,43 +25,64 @@ export const App = () => {
             
           />
           <small style={{fontSize:"10px"}}>Text to output .obj, .ply, .gif</small>
-        </div>
-        <div>
+        
+        </Rows>
+
+        <Rows spacing="1u">
+        
           <label style={{fontSize:"14px"}} htmlFor="model-type">Select a Model Type</label>
           <Select id="model-type" placeholder="Select" stretch options={[
-            { value: "model1", label: "Model 1", },
-            { value: "model2", label: "Model 2" }
+            { value: "Base40m", label: "Base40m", },
+            { value: "Base300m", label: "Base300m" }
           ]} />
-        </div>
-        <div>
+        
+        </Rows>
+
+        <Rows spacing="1u">
+        
           <label style={{fontSize:"14px"}} htmlFor="output-format">Select an Output Format</label>
           <Select id="output-format" placeholder="Select" stretch options={[
             { value: ".obj", label: ".obj" },
             { value: ".ply", label: ".ply" },
             { value: ".gif", label: ".gif" },
           ]} />
-        </div>
-        <div>
+        
+        </Rows>
+
+
+        <Rows spacing="1u">
+        
           <label style={{fontSize:"14px"}} htmlFor="upload-image">Upload Image</label>
 
           <br></br>
 
           <FileInput stretchButton multiple  id="upload-image"  />
-        </div>
-        <div>
+        
+        </Rows>
+
+
+
+        <Rows spacing="1u">
+        
           <label style={{fontSize:"14px"}} htmlFor="second-output-format">Select an Output Format</label>
           <Select id="second-output-format" placeholder="Select" stretch options={[
-            { value: "format1", label: "Format 1" },
-            { value: "format2", label: "Format 2" }
+            { value: ".png", label: ".png" },
+            { value: ".jpg", label: ".jpg" },
+            { value: ".jpeg", label: ".jpeg" },
           ]} />
-        </div>
+      
+        </Rows>
+        </Rows>
+          <br /><br />
+        <Rows spacing="1u">
         <Button variant="primary" onClick={onGenerate} stretch>
           Generate
         </Button>
         <Button variant="secondary" onClick={onPreview} stretch>
           Preview
         </Button>
-      </Rows>
+        </Rows>
+      
     </div>
   );
 };
