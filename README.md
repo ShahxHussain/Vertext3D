@@ -1,4 +1,4 @@
-<img src="https://github.com/ShahxHussain/Vertext3D/blob/main/Logos/hackathon.png" alt="Canva AI & Integration Hackathon" />
+<img src="https://github.com/ShahxHussain/Vertext3D/blob/main/Logos/hackathon.png" alt="Canva AI & Integration Hackathon" width="100%" />
 
 # Vertext3D
 
